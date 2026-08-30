@@ -1,0 +1,175 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{txbench-preprint}[2026/06/15 TxBench-PP preprint template]
+
+\RequirePackage[letterpaper,left=0.58in,right=0.58in,top=0.46in,bottom=0.58in]{geometry}
+\RequirePackage{fix-cm}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{tgpagella}
+\RequirePackage[scaled=0.90]{beramono}
+\RequirePackage{microtype}
+\RequirePackage{xcolor}
+\RequirePackage{graphicx}
+\RequirePackage{tikz}
+\RequirePackage{multicol}
+\RequirePackage{caption}
+\RequirePackage{titlesec}
+\RequirePackage{enumitem}
+\RequirePackage{booktabs}
+\RequirePackage{array}
+\RequirePackage{cite}
+\RequirePackage{hyperref}
+\RequirePackage{ragged2e}
+
+\definecolor{ink}{HTML}{15191F}
+\definecolor{muted}{HTML}{5F6872}
+\definecolor{linegray}{HTML}{D9DEE5}
+\definecolor{paperaccent}{HTML}{A95F3D}
+\definecolor{paperaccentlight}{HTML}{C97745}
+\definecolor{teal}{HTML}{2A9D8F}
+\definecolor{violet}{HTML}{7267C8}
+\definecolor{figurecream}{HTML}{FBFAF6}
+\definecolor{warmgray}{HTML}{F7F4F3}
+\definecolor{figureline}{HTML}{DDD7CB}
+\definecolor{figgray}{HTML}{6A7078}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=paperaccent,
+  citecolor=paperaccent,
+  urlcolor=paperaccent,
+  pdfborder={0 0 0}
+}
+
+\pagestyle{plain}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.72em}
+\setlength{\columnsep}{0.32in}
+\setlength{\emergencystretch}{2em}
+\hbadness=10000
+\RaggedRight
+\color{ink}
+
+\newcommand{\cp@kicker}{bioRxiv preprint}
+\newcommand{\cp@category}{Computational Biology}
+\newcommand{\cp@date}{June 2026}
+\newcommand{\cp@title}{Manuscript title}
+\newcommand{\cp@subtitle}{}
+\newcommand{\cp@authors}{Author One, Author Two}
+\newcommand{\cp@affiliations}{Institution one; Institution two}
+\newcommand{\cp@correspondence}{corresponding.author@example.org}
+
+\newcommand{\preprintKicker}[1]{\renewcommand{\cp@kicker}{#1}}
+\newcommand{\preprintCategory}[1]{\renewcommand{\cp@category}{#1}}
+\newcommand{\preprintDate}[1]{\renewcommand{\cp@date}{#1}}
+\newcommand{\preprintTitle}[1]{\renewcommand{\cp@title}{#1}}
+\newcommand{\preprintSubtitle}[1]{\renewcommand{\cp@subtitle}{#1}}
+\newcommand{\preprintAuthors}[1]{\renewcommand{\cp@authors}{#1}}
+\newcommand{\preprintAffiliations}[1]{\renewcommand{\cp@affiliations}{#1}}
+\newcommand{\preprintCorrespondence}[1]{\renewcommand{\cp@correspondence}{#1}}
+\newcommand{\preprintSup}[1]{\raisebox{0.62ex}{\fontsize{6.2}{6.2}\selectfont #1}}
+
+\titleformat{\section}
+  {\normalfont\fontsize{15}{18}\bfseries\color{ink}\RaggedRight}
+  {}
+  {0pt}
+  {}
+  [\vspace{0.16em}{\color{ink}\titlerule[1.1pt]}]
+\titlespacing*{\section}{0pt}{1.25em}{0.55em}
+
+\titleformat{\subsection}
+  {\normalfont\fontsize{11.5}{14}\bfseries\color{ink}\RaggedRight}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\subsection}{0pt}{1.0em}{0.15em}
+
+\captionsetup{
+  font={footnotesize,color=figgray},
+  labelfont={bf,color=ink},
+  justification=raggedright,
+  singlelinecheck=false,
+  hypcap=false
+}
+
+\setlist[itemize]{leftmargin=1.15em,itemsep=0.12em,topsep=0.1em}
+\setlist[enumerate]{leftmargin=1.45em,itemsep=0.15em,topsep=0.1em}
+
+\newcommand{\PreprintHeader}{%
+  \vspace*{0.10in}
+
+  \begin{minipage}[t]{\textwidth}
+    {\hyphenpenalty=10000\exhyphenpenalty=10000\fontsize{34}{37}\selectfont\bfseries\color{ink}\cp@title\par}
+    \ifx\cp@subtitle\empty\else
+      \vspace{0.55em}
+      {\fontsize{13}{17}\selectfont\color{muted}\cp@subtitle\par}
+    \fi
+  \end{minipage}
+
+  \vspace{0.55in}
+
+  {\fontsize{10.6}{13.2}\selectfont\bfseries\cp@authors\par}
+  \vspace{0.22in}
+  {\fontsize{8.6}{11.2}\selectfont\color{muted}\cp@affiliations\par}
+
+  \vspace{0.18in}
+
+  \begin{minipage}[t]{0.54\textwidth}
+    {\fontsize{8.6}{11}\selectfont\color{muted}
+    Correspondence: \cp@correspondence}
+  \end{minipage}
+}
+
+\newenvironment{PreprintAbstract}
+  {%
+    \vspace{0.30in}
+    \noindent\begin{minipage}{\textwidth}
+    \begin{tikzpicture}
+      \node[
+        fill=figurecream,
+        draw=figureline,
+        line width=0.45pt,
+        rounded corners=8pt,
+        inner xsep=0.28in,
+        inner ysep=0.20in,
+        text width=0.90\textwidth,
+        align=left
+      ] \bgroup
+      {\fontsize{9}{11}\selectfont\bfseries\color{paperaccent}ABSTRACT}\par\vspace{0.45em}
+      \fontsize{10.2}{14.8}\selectfont\color{ink}
+  }
+  {%
+      \egroup;
+    \end{tikzpicture}
+    \end{minipage}
+  }
+
+\newcommand{\StartBody}{%
+  \clearpage
+  \fontsize{9.1}{12.8}\selectfont
+  \begin{multicols}{2}
+}
+
+\newcommand{\ResumeBody}{%
+  \fontsize{9.1}{12.8}\selectfont
+  \begin{multicols}{2}
+}
+
+\newcommand{\EndBody}{%
+  \end{multicols}
+}
+
+\newcommand{\CalloutBox}[2]{%
+  \begin{tikzpicture}
+    \node[
+      fill=figurecream,
+      draw=figureline,
+      line width=0.45pt,
+      rounded corners=8pt,
+      inner xsep=0.16in,
+      inner ysep=0.13in,
+      text width=#1,
+      align=left
+    ] {#2};
+  \end{tikzpicture}
+}
