@@ -1,0 +1,73 @@
+\begin{thebibliography}{10}
+
+\bibitem{Jain2017-ye}
+Tushar Jain, Tingwan Sun, St\'{e}phanie Durand, Amy Hall, Nga~Rewa Houston, Juergen~H Nett, Beth Sharkey, Beata Bobrowicz, Isabelle Caffry, Yao Yu, Yuan Cao, Heather Lynaugh, Michael Brown, Hemanta Baruah, Laura~T Gray, Eric~M Krauland, Yingda Xu, Maximiliano V\'{a}squez, and K~Dane Wittrup.
+\newblock Biophysical properties of the clinical-stage antibody landscape.
+\newblock {\em Proc. Natl. Acad. Sci. U. S. A.}, 114(5):944--949, 31~January 2017.
+
+\bibitem{Matochko2014-bw}
+Wadim~L Matochko, S~Cory~Li, Sindy K~Y Tang, and Ratmir Derda.
+\newblock Prospective identification of parasitic sequences in phage display screens.
+\newblock {\em Nucleic Acids Res.}, 42(3):1784--1798, February 2014.
+
+\bibitem{Lacy2025-do}
+Eilyn~R Lacy, Rupesh Nanjunda, Scott~L Klakamp, Deborah Kwok, Jennifer~F Nemeth, Gordon~D Powers, H~Hugo Caicedo, and Steven~A Jacobs.
+\newblock A novel label-free method to determine equilibrium dissociation constants of antibodies binding to cell surface proteins.
+\newblock {\em Sci. Rep.}, 15(1):3352, 27~January 2025.
+
+\bibitem{Dickopf2020-to}
+Steffen Dickopf, Guy~J Georges, and Ulrich Brinkmann.
+\newblock Format and geometries matter: Structure-based design defines the functionality of bispecific antibodies.
+\newblock {\em Comput. Struct. Biotechnol. J.}, 18:1221--1227, 14~May 2020.
+
+\bibitem{Huang2021-ei}
+Kexin Huang, Tianfan Fu, Wenhao Gao, Yue Zhao, Yusuf Roohani, Jure Leskovec, Connor~W Coley, Cao Xiao, Jimeng Sun, and Marinka Zitnik.
+\newblock Therapeutics data commons: Machine learning datasets and tasks for drug discovery and development.
+\newblock {\em arXiv [cs.LG]}, 18~February 2021.
+
+\bibitem{Chungyoun2025-co}
+Michael Chungyoun and Jeffrey Gray.
+\newblock Fitness landscape for antibodies 2: Benchmarking reveals that protein {AI} models cannot yet consistently predict developability properties.
+\newblock {\em bioRxivorg}, page 2025.12.27.696706, 27~December 2025.
+
+\bibitem{Erasmus2026-qb}
+M~Frank Erasmus, Daniel Bedinger, Elizabeth Hopkins, Ginger Ferguson, Justine Strickler, Christilyn~P Graff, Samantha~R Summers, Stacy~L Capehart, Joshua~D Slocum, Crystal Richardson, Sumit Kumar, Zhifei Sun, Yujie Shang, Jixian Zhang, Ming Gu, Lixia Yi, Alon Wellner, Shuangjia Zheng, Wei Lu, Pietro Sormanni, Matthew Greenig, Haiping Zhang, Brendan~T Mann, Mahdi Baghbanzadeh, Ali Rahnavard, Gregory~L Moore, Huaiyu Sun, Ying Ding, Alex Nisthal, Jitendra Kanodia, Matthew~J Bernett, Aur\'{e}lien P\'{e}lissier, Yanjun Shao, Maria Rodriguez~Martinez, Karthik Ramesh, Horacio Nastri, Andreas Evers, Anhar Abdelatif, Andrew~J Bordner, Mykola Bordyuh, Lim Heo, Brian~A Kidd, H~Serhat~Tetikol, Shuai Wei, Jung-Eun Shin, Ryan Peckner, Leigh Manley, Ajitesh Lunge, Yashas Devasurmutt, Bora Guloglu, Liviu Copoiu, Miles McGibbon, Monica~L Fernandez-Quintero, Nitesh Mishra, Sean~M Callaghan, Olivia~M Swanson, Daniel L~V Bader, James~A Ferguson, Sai S~R Raghavan, Benjamin Nemoz, Colleen~A Maillie, Charles Bowman, Bryan Briney, Andrew~B Ward, Paolo Marcatili, Rahmad Akbar, Bing He, Fandi Wu, Jianhua Yao, Bin Hu, Michal Kucer, Kaetlyn~Rose Gibson, Rahul Somasundaram, Li-Wei Hung, Tomasz Kaszuba, Daved~H Fremont, Hyeongsun Jeong, Vinodh~Babu Kurella, Shipra Malhotra, Satyendra Kumar, Yanyun Liu, Lingling Xu, Joshua Misa, Alexander Nicholas~St John, Jeff Vogt, F\'{a}tima~A D\'{a}vila-Hern\'{a}ndez, Da~Xu, Michael Chungyoun, Zyaja~D Huggan, Jeffrey~J Gray, Jonathan Parkinson, Young~Su Ko, Wei Wang, Franziska Geiger, Jonathon~D Ziegler, Nikhil Haas, Chance Challacombe, Ahmad Qamar, Akshita Singh, Yi-Ching Tang, Zhiqiang An, Xiaoqian Jiang, Yejin Kim, Xinyan Zhao, Erik Swanson, J{\"{u}}rgen Klattig, Karsten Winkler, Tschimegma Bataa, Volker Sandig, Lilian Denzler, Chunan Liu, Randall~J Brezski, Laura Spector, Katheryn Perea-Schmittle, Sara D'Angelo, Fortunato Ferrara, and Andrew R~M Bradbury.
+\newblock A blinded, prospective benchmark of in silico antibody discovery anchored to experimental affinity and developability.
+\newblock {\em Nat. Biotechnol.}, pages 1--13, 19~August 2026.
+
+\bibitem{Le2026-tm}
+Hannah Le, Ramesh Ramasamy, Alex Urrutia, Mahsa Yazdani, Tim Proctor, and Kenny Workman.
+\newblock {TxBench}-{PP}: Analyzing {AI} agent performance on small-molecule preclinical pharmacology.
+\newblock {\em arXiv [cs.AI]}, 17~June 2026.
+
+\bibitem{Chen2024-ov}
+Ziru Chen, Shijie Chen, Yuting Ning, Qianheng Zhang, Boshi Wang, Botao Yu, Yifei Li, Zeyi Liao, Chen Wei, Zitong Lu, Vishal Dey, Mingyi Xue, Frazier~N Baker, Benjamin Burns, Daniel Adu-Ampratwum, Xuhui Huang, Xia Ning, Song Gao, Yu~Su, and Huan Sun.
+\newblock {ScienceAgentBench}: Toward rigorous assessment of language agents for data-driven scientific discovery.
+\newblock {\em arXiv [cs.CL]}, 7~October 2024.
+
+\bibitem{Laurent2026-zk}
+Jon~M Laurent, Albert Bou, Michael Pieler, Conor Igoe, Alex Andonian, Siddharth Narayanan, James Braza, Alexandros~Sanchez Vassopoulos, Jacob~L Steenwyk, Blake Lash, Andrew~D White, and Samuel~G Rodriques.
+\newblock {LABBench2}: An improved benchmark for {AI} systems performing biology research.
+\newblock {\em arXiv [cs.AI]}, 4~February 2026.
+
+\bibitem{Mitchener2025-fo}
+Ludovico Mitchener, Jon~M Laurent, Alex Andonian, Benjamin Tenmann, Siddharth Narayanan, Geemi~P Wellawatte, Andrew White, Lorenzo Sani, and Samuel~G Rodriques.
+\newblock {BixBench}: A comprehensive benchmark for {LLM}-based agents in computational biology.
+\newblock {\em arXiv [q-bio.QM]}, 28~February 2025.
+
+\bibitem{Zhao2025-pb}
+Xinyan Zhao, Yi-Ching Tang, Akshita Singh, Victor~J Cantu, Kwanho An, Junseok Lee, Adam~E Stogsdill, Ibraheem~M Hamdi, Ashwin~Kumar Ramesh, Zhiqiang An, Xiaoqian Jiang, and Yejin Kim.
+\newblock {AbBiBench}: A benchmark for antibody binding affinity maturation and design.
+\newblock {\em arXiv [q-bio.QM]}, 23~May 2025.
+
+\bibitem{Ahmed2026-uq}
+Mansoor Ahmed, Nadeem Taj, Imdad~Ullah Khan, Hemanth Venkateswara, and Murray Patterson.
+\newblock {CHIMERA}-bench: A benchmark dataset for epitope-specific antibody design.
+\newblock {\em arXiv [cs.LG]}, 13~March 2026.
+
+\bibitem{Kim2026-cr}
+Jeonghyeon Kim and Philip Romero.
+\newblock Benchmarking and behavioral characterization of {LLM} agents for protein design.
+\newblock {\em bioRxivorg}, page 2026.05.06.723381, 28~June 2026.
+
+\end{thebibliography}
