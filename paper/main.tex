@@ -11,7 +11,7 @@
 \preprintKicker{bioRxiv preprint}
 \preprintCategory{Computational Biology}
 \preprintDate{September 2026}
-\preprintTitle{TxBench - Biologics Discovery}
+\preprintTitle{TxBench - Antibody Discovery}
 \preprintSubtitle {Benchmarking AI Agents on Experimentally Grounded Decisions in Therapeutic Antibody Discovery}
 \preprintAuthors{Ramesh Ramasamy\preprintSup{1,*}, Hannah Le\preprintSup{1,*}, Jackson Brougher\preprintSup{1,*}, Alex Urrutia\preprintSup{1,*}, Arjun Banerjee\preprintSup{1}, Sean Poust\preprintSup{1}, Kenny Workman\preprintSup{1}}
 \preprintAffiliations{\preprintSup{1}LatchBio, San Francisco, CA, USA\\
@@ -23,7 +23,7 @@
 \PreprintHeader
 
 \begin{PreprintAbstract}
-Biologics discovery requires researchers to integrate heterogeneous experimental evidence and decide whether therapeutic hypotheses, assays, binders, and engineered candidates should advance. We introduce TxBench-Biologics Discovery, a benchmark of 100 experimentally grounded evaluations spanning ten competencies in therapeutic antibody discovery, from target assessment and assay design to cellular pharmacology, antibody engineering, and translational de-risking. Each evaluation is derived from publicly available experimental studies and uses deterministic grading to assess a consequential research decision. Across 20 model–harness configurations, each scheduled for three attempts per evaluation, Opus 5 with Claude Code achieved the highest evaluable pass rate at 53.0\%, with four configurations from xAI and Google performing similarly, within three percentage points. Differences between harnesses showed that execution scaffolds also affected scientific accuracy. Failures were frequently reproducible, although every evaluation was solved by at least one configuration and 89 were solved by models from at least two families. Model rankings varied across biological competencies, decision types, and evidence sources. Greater cost, token usage, and tool use did not consistently improve accuracy. Failure analysis indicated that most incorrect attempts reflected scientific framing rather than analytical execution: agents typically performed internally consistent calculations that answered a scientifically adjacent question. Current agents therefore remain unreliable at turning experimental evidence into defensible biologics discovery decisions, highlighting the need for benchmarks that evaluate scientific reasoning in realistic discovery workflows.
+Biologics discovery requires researchers to integrate heterogeneous experimental evidence and decide whether therapeutic hypotheses, assays, binders, and engineered candidates should advance. We introduce TxBench-Antibody Discovery, a benchmark of 100 experimentally grounded evaluations spanning ten competencies in therapeutic antibody discovery, from target assessment and assay design to cellular pharmacology, antibody engineering, and translational de-risking. Each evaluation is derived from publicly available experimental studies and uses deterministic grading to assess a consequential research decision. Across 20 model–harness configurations, each scheduled for three attempts per evaluation, Opus 5 with Claude Code achieved the highest evaluable pass rate at 53.0\%, with four configurations from xAI and Google performing similarly, within three percentage points. Differences between harnesses showed that execution scaffolds also affected scientific accuracy. Failures were frequently reproducible, although every evaluation was solved by at least one configuration and 89 were solved by models from at least two families. Model rankings varied across biological competencies, decision types, and evidence sources. Greater cost, token usage, and tool use did not consistently improve accuracy. Failure analysis indicated that most incorrect attempts reflected scientific framing rather than analytical execution: agents typically performed internally consistent calculations that answered a scientifically adjacent question. Current agents therefore remain unreliable at turning experimental evidence into defensible biologics discovery decisions, highlighting the need for benchmarks that evaluate scientific reasoning in realistic discovery workflows.
 \end{PreprintAbstract}
 
 \vfill
@@ -90,7 +90,7 @@ We found that no model–harness configuration passed more than 53\% of evaluabl
 \begin{center}
   \includegraphics[width=0.96\textwidth]{figures/model_harness_pass_rate_and_repeatability.png}
 
-  \captionof{figure}{\textbf{Top systems remain below 55\%.} Model–harness performance and repeatability across TxBench-Biologics.
+  \captionof{figure}{\textbf{Top systems remain below 55\%.} Model–harness performance and repeatability across TxBench-Antibody.
   \textbf{A}, Pass rate for each model–harness configuration across 100 evaluations, with three attempts per evaluation. Error bars indicate 95\% Student’s t intervals calculated across per-evaluation pass rates. Colors indicate model family and marker shapes indicate execution harness. \textbf{B}, Evaluation-level consistency across repeated attempts. Analysis was restricted to evaluations with three non-refused attempts for each configuration. Bars are normalized within configuration, with shading from light to dark indicating zero, one, two, or three successful attempts. Numbers within each segment indicate the corresponding evaluation count, and n denotes the number of evaluations with complete non-refused triplicates. Configurations are ordered by their pass rate in panel A.}
   \label{fig:leaderboard}
 \end{center}
@@ -102,7 +102,7 @@ Evaluation-level head-to-head comparisons showed that comparable aggregate pass 
 \EndBody
 
 \begin{center}
-  \includegraphics[width=0.96\textwidth]{paper/figures/model_head_to_head_by_evaluation.png}
+  \includegraphics[width=0.96\textwidth]{figures/model_head_to_head_by_evaluation.png}
 
   \captionof{figure}{\textbf{Evaluation-level head-to-head performance across model families.}
   \textbf{A}, Opus 5 versus Gemini 3.7 Flash. \textbf{B}, Opus 5 versus GPT-5.6 Sol. \textbf{C}, Opus 5 versus Grok 4.6. For each model, we pooled three attempts from each of two execution harnesses, yielding six evaluable attempts per evaluation. We included only evaluations with all six evaluable attempts for both models being compared. Axes show the number of successful attempts from 0/6 to 6/6. Bubble area and the number within each bubble indicate the number of evaluations at that coordinate. Points below the diagonal favor Opus 5, points above it favor the comparator, and points on the diagonal represent ties.}
@@ -119,7 +119,7 @@ To understand why additional computation did not always improve performance, we 
 \EndBody
 
 \begin{center}
-  \includegraphics[width=0.94\textwidth]{paper/figures/model_harness_efficiency.png}
+  \includegraphics[width=0.94\textwidth]{figures/model_harness_efficiency.png}
 
   \captionof{figure}{\textbf{Benchmark performance relative to computational cost, token usage, and tool utilization.} \textbf{A}, Non-refusal endpoint pass rate plotted against the mean monetary cost per completed run. \textbf{B}, Pass rate plotted against the mean total token usage per completed run. The cost and token axes are on logarithmic scales; dashed lines connect configurations along the corresponding accuracy–resource frontier. \textbf{C}, Pass rate plotted against the mean number of tool calls per completed run. Each data point represents a unique model–harness configuration. Point numbers indicate the configuration’s rank by pass rate; colors denote the model family; and marker shapes signify the execution harness. We calculated pass rates across 100 evaluations, with three attempts per evaluation. We excluded model refusals from the analysis, while scoring execution errors as unsuccessful attempts. We averaged resource metrics over completed, non-refused runs that yielded recoverable usage records.}
   \label{fig:resource-usage}
@@ -136,7 +136,7 @@ GPT-5.6 Sol illustrated this dichotomy particularly well. Manual review demonstr
 \EndBody
 
 \begin{center}
-  \includegraphics[width=0.94\textwidth]{paper/figures/benchmark_failure_taxonomy.png}
+  \includegraphics[width=0.94\textwidth]{figures/benchmark_failure_taxonomy.png}
 
   \captionof{figure}{\textbf{Errors in scientific judgment dominate agent failures.} \textbf{A}, Broad sources of error among 3,517 evaluable incorrect attempts. We distinguished failures attributed primarily to computational methods, metrics, models, or aggregations from those requiring drug-discovery interpretation, including scope definition, evidence transport, assay-quality adjudication, causal reasoning, and decision integration. \textbf{B}, Distribution of incorrect attempts across six primary scientific failure classes. We assigned each evaluation a single primary class based on its task, deterministic grading rationale, author notes, and reviewed failure route. Percentages are weighted by the number of evaluable incorrect attempts, whereas n indicates the number of evaluations assigned to each class. \textbf{C}, Model-specific failure rates for each scientific class, pooled across execution harnesses. Rows represent model families and their overall evaluable pass rates, while columns represent the primary failure classes.}
   \label{fig:failure_taxonomy}
@@ -152,7 +152,7 @@ Sol’s strongest category was sequence, lineage, and enrichment analysis, where
 
 \EndBody
 \begin{center}
-  \includegraphics[width=0.94\textwidth]{paper/figures/roadmap_category_pass_rates.png}
+  \includegraphics[width=0.94\textwidth]{figures/roadmap_category_pass_rates.png}
 
   \captionof{figure}{\textbf{No single model leads across discovery competencies.} \textbf{A}, Mean non-refusal pass rate across evaluations assigned to each roadmap category (D1–D10) for Opus 5, Grok 4.6, Gemini 3.7 Flash, and GPT-5.6 Sol. Values for each model combine its two evaluated harnesses and are averaged at the evaluation level. \textbf{B}, Non-refusal endpoint pass rate for every model–harness configuration within each category; rows are ordered by overall benchmark performance, and row-label colors indicate model family. Numbers in cells are percentages. Category sample sizes are shown beneath each axis. Refusals were excluded from pass-rate denominators. Each configuration was attempted three times per evaluation.}
   \label{fig:by-stage}
@@ -167,7 +167,7 @@ Tasks requiring evidence integration produced a different ordering. Opus passed 
 Grouping evaluations by their primary evidence source revealed further specialization. Opus reached 60\% on expression, single-cell, spatial, and disease-context data and 62\% on dose-response, imaging, uptake, and cell-state measurements. Gemini performed best on selection and enrichment screens at 75\% and reached 63\% on competition, epitope, escape, and structural evidence. Grok showed a marked advantage on binding kinetics, model selection, and avidity, reaching 70\% compared with 52\% for Opus, 27\% for Gemini, and 24\% for Sol. Sol was relatively stronger on sequence and lineage analysis (44\%), assay quality control and hierarchical inference (44\%), and experiment design and allocation (50\%), but reached only 20\% on dose-response and cellular-state evidence. These results show that benchmark difficulty was determined not only by where a decision occurred in the discovery process but also by the structure of the evidence and the scientific inference that the evidence was expected to support. Similar aggregate pass rates could therefore arise from substantially different capabilities in screening analysis, biophysical interpretation, cellular pharmacology, and evidence integration.
 \EndBody
 \begin{center}
-  \includegraphics[width=0.94\textwidth]{paper/figures/benchmark_additional_axes_pass_rates.png}
+  \includegraphics[width=0.94\textwidth]{figures/benchmark_additional_axes_pass_rates.png}
 
   \captionof{figure}{\textbf{Performance varied with both the scientific decision and the evidence substrate.} \textbf{A}, Non-refusal pass rates for Opus 5, Grok 4.6, Gemini 3.7 Flash, and GPT-5.6 Sol across seven categories of scientific decision. \textbf{B}, Pass rates for the same models across eight categories representing the primary evidence and analysis substrate. Each evaluation was assigned one primary category on each axis. Results for each model are pooled across the two harnesses tested. Cell labels show pass rates, and n indicates the number of evaluations in each category. Each model–harness configuration was run three times per evaluation.}
   \label{fig:by-task-type}
@@ -188,7 +188,7 @@ Trajectory analysis showed that more computation alone is unlikely to close thes
 \section{Methods}
 
 \subsection{Benchmark composition and data}
-The Biologics Discovery Benchmark comprised 100 evaluations derived from publicly available experimental studies. Each evaluation included an agent-facing task, deterministic graders, benchmark annotations, references to staged input data, and private notes documenting the scientific decision and the ground-truth rationale. The benchmark primarily covers therapeutic antibodies and includes engineered antibody formats and other protein-based modalities.
+The Antibody Discovery Benchmark comprised 100 evaluations derived from publicly available experimental studies. Each evaluation included an agent-facing task, deterministic graders, benchmark annotations, references to staged input data, and private notes documenting the scientific decision and the ground-truth rationale. The benchmark primarily covers therapeutic antibodies and includes engineered antibody formats and other protein-based modalities.
 
 Input materials included source-derived tables, sequences, images, and assay outputs. Identifiers that could reveal the answer were blinded, while decision-relevant experimental structure, including dose, time, donor, replicate, batch, and molecular format, was retained. Evaluations were annotated with discovery competency, decision type, computational-analysis family, therapeutic modality, evidence type, difficulty, and primary failure mode. Related evaluations from the same research campaign were grouped to reduce information leakage.
 
@@ -211,7 +211,7 @@ Pass rates were calculated from correct and incorrect runs, with refusals report
 
 \section*{Data availability}
 
-The public TxBench-Biologics repository is available at
+The public TxBench-Antibody repository is available at
 \url{https://github.com/latchbio/}. It contains a subset of
 evaluations and trajectories for manual inspection, along with task definitions,
 graders, and available data artifacts for those evaluations. Source assay data
