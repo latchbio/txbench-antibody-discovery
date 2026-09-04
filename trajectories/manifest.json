@@ -1,0 +1,233 @@
+{
+  "note": "One agent trajectory per model for each of the six public example evaluations. Normalized (thought / message / command / output / final answer), untruncated. No grading is included.",
+  "trajectories": {
+    "mlabaffinity_s7_antibody_display_sorting_0066": [
+      {
+        "file": "mlabaffinity_s7_antibody_display_sorting_0066/claude-opus-5__claude-code__r1.json",
+        "provider": "Anthropic",
+        "model": "claude-opus-5",
+        "display": "Claude Opus 5",
+        "harness": "claude-code",
+        "run": "r1",
+        "steps": 53
+      },
+      {
+        "file": "mlabaffinity_s7_antibody_display_sorting_0066/gpt-5.6-sol__openai-codex__r1.json",
+        "provider": "OpenAI",
+        "model": "gpt-5.6-sol",
+        "display": "GPT-5.6 Sol",
+        "harness": "openai-codex",
+        "run": "r1",
+        "steps": 52
+      },
+      {
+        "file": "mlabaffinity_s7_antibody_display_sorting_0066/grok-4.6__pi__r1.json",
+        "provider": "SpaceXAI",
+        "model": "grok-4.6",
+        "display": "Grok-4.6",
+        "harness": "pi",
+        "run": "r1",
+        "steps": 58
+      },
+      {
+        "file": "mlabaffinity_s7_antibody_display_sorting_0066/gemini-3.7-flash__pi__r1.json",
+        "provider": "Google",
+        "model": "gemini-3.7-flash",
+        "display": "Gemini 3.7 Flash",
+        "harness": "pi",
+        "run": "r1",
+        "steps": 78
+      }
+    ],
+    "tcellengagerengineering_s6_imaging_flow_cytometry_0100": [
+      {
+        "file": "tcellengagerengineering_s6_imaging_flow_cytometry_0100/claude-opus-5__claude-code__r1.json",
+        "provider": "Anthropic",
+        "model": "claude-opus-5",
+        "display": "Claude Opus 5",
+        "harness": "claude-code",
+        "run": "r1",
+        "steps": 52
+      },
+      {
+        "file": "tcellengagerengineering_s6_imaging_flow_cytometry_0100/gpt-5.6-sol__openai-codex__r1.json",
+        "provider": "OpenAI",
+        "model": "gpt-5.6-sol",
+        "display": "GPT-5.6 Sol",
+        "harness": "openai-codex",
+        "run": "r1",
+        "steps": 41
+      },
+      {
+        "file": "tcellengagerengineering_s6_imaging_flow_cytometry_0100/grok-4.6__pi__r1.json",
+        "provider": "SpaceXAI",
+        "model": "grok-4.6",
+        "display": "Grok-4.6",
+        "harness": "pi",
+        "run": "r1",
+        "steps": 39
+      },
+      {
+        "file": "tcellengagerengineering_s6_imaging_flow_cytometry_0100/gemini-3.7-flash__pi__r1.json",
+        "provider": "Google",
+        "model": "gemini-3.7-flash",
+        "display": "Gemini 3.7 Flash",
+        "harness": "pi",
+        "run": "r1",
+        "steps": 47
+      }
+    ],
+    "cd98hccrossspeciesengineering_s8_pk_0035": [
+      {
+        "file": "cd98hccrossspeciesengineering_s8_pk_0035/claude-opus-5__claude-code__r1.json",
+        "provider": "Anthropic",
+        "model": "claude-opus-5",
+        "display": "Claude Opus 5",
+        "harness": "claude-code",
+        "run": "r1",
+        "steps": 24
+      },
+      {
+        "file": "cd98hccrossspeciesengineering_s8_pk_0035/gpt-5.6-sol__openai-codex__r1.json",
+        "provider": "OpenAI",
+        "model": "gpt-5.6-sol",
+        "display": "GPT-5.6 Sol",
+        "harness": "openai-codex",
+        "run": "r1",
+        "steps": 25
+      },
+      {
+        "file": "cd98hccrossspeciesengineering_s8_pk_0035/grok-4.6__pi__r1.json",
+        "provider": "SpaceXAI",
+        "model": "grok-4.6",
+        "display": "Grok-4.6",
+        "harness": "pi",
+        "run": "r1",
+        "steps": 22
+      },
+      {
+        "file": "cd98hccrossspeciesengineering_s8_pk_0035/gemini-3.7-flash__pi__r1.json",
+        "provider": "Google",
+        "model": "gemini-3.7-flash",
+        "display": "Gemini 3.7 Flash",
+        "harness": "pi",
+        "run": "r1",
+        "steps": 31
+      }
+    ],
+    "cd98hctessiershuttle_s8_tissue_biodistribution_imaging_0084": [
+      {
+        "file": "cd98hctessiershuttle_s8_tissue_biodistribution_imaging_0084/claude-opus-5__claude-code__r1.json",
+        "provider": "Anthropic",
+        "model": "claude-opus-5",
+        "display": "Claude Opus 5",
+        "harness": "claude-code",
+        "run": "r1",
+        "steps": 17
+      },
+      {
+        "file": "cd98hctessiershuttle_s8_tissue_biodistribution_imaging_0084/gpt-5.6-sol__openai-codex__r1.json",
+        "provider": "OpenAI",
+        "model": "gpt-5.6-sol",
+        "display": "GPT-5.6 Sol",
+        "harness": "openai-codex",
+        "run": "r1",
+        "steps": 14
+      },
+      {
+        "file": "cd98hctessiershuttle_s8_tissue_biodistribution_imaging_0084/grok-4.6__pi__r1.json",
+        "provider": "SpaceXAI",
+        "model": "grok-4.6",
+        "display": "Grok-4.6",
+        "harness": "pi",
+        "run": "r1",
+        "steps": 12
+      },
+      {
+        "file": "cd98hctessiershuttle_s8_tissue_biodistribution_imaging_0084/gemini-3.7-flash__pi__r1.json",
+        "provider": "Google",
+        "model": "gemini-3.7-flash",
+        "display": "Gemini 3.7 Flash",
+        "harness": "pi",
+        "run": "r1",
+        "steps": 24
+      }
+    ],
+    "adc_doxlinker_nuclear_signal_nocall": [
+      {
+        "file": "adc_doxlinker_nuclear_signal_nocall/claude-opus-5__claude-code__r1.json",
+        "provider": "Anthropic",
+        "model": "claude-opus-5",
+        "display": "Claude Opus 5",
+        "harness": "claude-code",
+        "run": "r1",
+        "steps": 109
+      },
+      {
+        "file": "adc_doxlinker_nuclear_signal_nocall/gpt-5.6-sol__openai-codex__r1.json",
+        "provider": "OpenAI",
+        "model": "gpt-5.6-sol",
+        "display": "GPT-5.6 Sol",
+        "harness": "openai-codex",
+        "run": "r1",
+        "steps": 75
+      },
+      {
+        "file": "adc_doxlinker_nuclear_signal_nocall/grok-4.6__pi__r1.json",
+        "provider": "SpaceXAI",
+        "model": "grok-4.6",
+        "display": "Grok-4.6",
+        "harness": "pi",
+        "run": "r1",
+        "steps": 96
+      },
+      {
+        "file": "adc_doxlinker_nuclear_signal_nocall/gemini-3.7-flash__pi__r1.json",
+        "provider": "Google",
+        "model": "gemini-3.7-flash",
+        "display": "Gemini 3.7 Flash",
+        "harness": "pi",
+        "run": "r1",
+        "steps": 185
+      }
+    ],
+    "denton2022_s6_dose_selection_readout_choice": [
+      {
+        "file": "denton2022_s6_dose_selection_readout_choice/claude-opus-5__claude-code__r1.json",
+        "provider": "Anthropic",
+        "model": "claude-opus-5",
+        "display": "Claude Opus 5",
+        "harness": "claude-code",
+        "run": "r1",
+        "steps": 45
+      },
+      {
+        "file": "denton2022_s6_dose_selection_readout_choice/gpt-5.6-sol__openai-codex__r1.json",
+        "provider": "OpenAI",
+        "model": "gpt-5.6-sol",
+        "display": "GPT-5.6 Sol",
+        "harness": "openai-codex",
+        "run": "r1",
+        "steps": 66
+      },
+      {
+        "file": "denton2022_s6_dose_selection_readout_choice/grok-4.6__pi__r1.json",
+        "provider": "SpaceXAI",
+        "model": "grok-4.6",
+        "display": "Grok-4.6",
+        "harness": "pi",
+        "run": "r1",
+        "steps": 56
+      },
+      {
+        "file": "denton2022_s6_dose_selection_readout_choice/gemini-3.7-flash__pi__r1.json",
+        "provider": "Google",
+        "model": "gemini-3.7-flash",
+        "display": "Gemini 3.7 Flash",
+        "harness": "pi",
+        "run": "r1",
+        "steps": 89
+      }
+    ]
+  }
+}
