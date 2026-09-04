@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="936pt" height="561.6pt" viewBox="0 0 936 561.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-04T09:17:06.852339</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 561.6 
+L 936 561.6 
+L 936 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 149.76 208.656 
+L 838.35648 208.656 
+L 838.35648 33.696 
+L 149.76 33.696 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pff35248869)">
+    <image xlink:href="data:image/png;base64,
+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" id="imageeeabfa8930" transform="scale(1 -1) translate(0 -174.96)" x="149.76" y="-33.84" width="688.32" height="174.96"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m33bc97179a" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m33bc97179a" x="198.945463" y="208.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(174.098713 225.387542)">Characterize or</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(185.448838 233.974333)">quantify</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(187.889596 242.561124)">(n=10)</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m33bc97179a" x="297.316389" y="208.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(278.084584 225.379315)">Compare or</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(284.944271 233.966106)">classify</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(286.260521 242.552897)">(n=13)</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m33bc97179a" x="395.687314" y="208.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(375.892939 225.387542)">Rank, select</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(382.081846 233.974333)">or triage</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(384.631447 242.561124)">(n=26)</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m33bc97179a" x="494.05824" y="208.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(474.37524 225.387542)">Diagnose or</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(473.810138 233.974333)">troubleshoot</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(483.002373 242.561124)">(n=10)</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m33bc97179a" x="592.429166" y="208.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(584.560775 225.379948)">Infer</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(573.983947 233.966739)">mechanism</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(581.373299 242.55353)">(n=13)</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m33bc97179a" x="690.800091" y="208.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(674.939912 225.387542)">Design or</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(676.628888 233.974333)">optimize</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(679.744224 242.561124)">(n=15)</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m33bc97179a" x="789.171017" y="208.656" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(771.969908 225.379315)">Integrate a</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(765.667095 233.966106)">discovery gate</text>
+      <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(778.11515 242.552897)">(n=13)</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8">
+      <defs>
+       <path id="md4508887fe" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#md4508887fe" x="149.76" y="55.566" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-weight: 700; font-size: 10px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #d16f4d" x="142.76" y="58.95223" transform="rotate(-0 142.76 58.95223)">Opus 5</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#md4508887fe" x="149.76" y="99.306" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-weight: 700; font-size: 10px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #4d77cf" x="142.76" y="102.695063" transform="rotate(-0 142.76 102.695063)">Gemini 3.7 Flash</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#md4508887fe" x="149.76" y="143.046" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-weight: 700; font-size: 10px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #159a86" x="142.76" y="146.435063" transform="rotate(-0 142.76 146.435063)">GPT-5.6 Sol</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#md4508887fe" x="149.76" y="186.786" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-weight: 700; font-size: 10px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #171a1f" x="142.76" y="190.175063" transform="rotate(-0 142.76 190.175063)">Grok 4.6</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="198.945463" y="57.642416" transform="rotate(-0 198.945463 57.642416)">22</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="297.316389" y="57.642416" transform="rotate(-0 297.316389 57.642416)">31</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="395.687314" y="57.642416" transform="rotate(-0 395.687314 57.642416)">60</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="494.05824" y="57.642416" transform="rotate(-0 494.05824 57.642416)">46</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="592.429166" y="57.642416" transform="rotate(-0 592.429166 57.642416)">67</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="690.800091" y="57.642416" transform="rotate(-0 690.800091 57.642416)">52</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="789.171017" y="57.642416" transform="rotate(-0 789.171017 57.642416)">70</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="198.945463" y="101.382416" transform="rotate(-0 198.945463 101.382416)">32</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="297.316389" y="101.382416" transform="rotate(-0 297.316389 101.382416)">32</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="395.687314" y="101.382416" transform="rotate(-0 395.687314 101.382416)">60</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="494.05824" y="101.382416" transform="rotate(-0 494.05824 101.382416)">45</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="592.429166" y="101.382416" transform="rotate(-0 592.429166 101.382416)">50</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="690.800091" y="101.382416" transform="rotate(-0 690.800091 101.382416)">48</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="789.171017" y="101.382416" transform="rotate(-0 789.171017 101.382416)">50</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="198.945463" y="145.122416" transform="rotate(-0 198.945463 145.122416)">23</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="297.316389" y="145.122416" transform="rotate(-0 297.316389 145.122416)">25</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="395.687314" y="145.122416" transform="rotate(-0 395.687314 145.122416)">32</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="494.05824" y="145.122416" transform="rotate(-0 494.05824 145.122416)">43</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="592.429166" y="145.122416" transform="rotate(-0 592.429166 145.122416)">33</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="690.800091" y="145.122416" transform="rotate(-0 690.800091 145.122416)">42</text>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="789.171017" y="145.122416" transform="rotate(-0 789.171017 145.122416)">36</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="198.945463" y="188.862416" transform="rotate(-0 198.945463 188.862416)">33</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="297.316389" y="188.862416" transform="rotate(-0 297.316389 188.862416)">48</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="395.687314" y="188.862416" transform="rotate(-0 395.687314 188.862416)">63</text>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="494.05824" y="188.862416" transform="rotate(-0 494.05824 188.862416)">35</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="592.429166" y="188.862416" transform="rotate(-0 592.429166 188.862416)">49</text>
+   </g>
+   <g id="text_38">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="690.800091" y="188.862416" transform="rotate(-0 690.800091 188.862416)">53</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="789.171017" y="188.862416" transform="rotate(-0 789.171017 188.862416)">58</text>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start" x="149.76" y="25.696" transform="rotate(-0 149.76 25.696)">A  Performance by task category</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 149.76 488.592 
+L 838.35648 488.592 
+L 838.35648 313.632 
+L 149.76 313.632 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pc1784872b8)">
+    <image xlink:href="data:image/png;base64,
+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" id="image02152a50fd" transform="scale(1 -1) translate(0 -174.96)" x="149.76" y="-313.92" width="688.32" height="174.96"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_8">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m33bc97179a" x="192.79728" y="488.592" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_41">
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(158.636702 504.708081)">Expression, single-cell,</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(177.086311 512.446794)">spatial and</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(170.600147 520.185507)">disease context</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(182.83335 527.92422)">(n=21)</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m33bc97179a" x="278.87184" y="488.592" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_42">
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(247.963754 504.708081)">Sequence, repertoire,</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(258.295535 512.446794)">clonotype and</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(268.333035 520.185507)">lineage</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(270.73291 527.92422)">(n=3)</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m33bc97179a" x="364.9464" y="488.592" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_43">
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(334.033181 504.708081)">Selection enrichment</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(344.777869 512.446794)">and screening</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(356.80747 520.185507)">(n=8)</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m33bc97179a" x="451.02096" y="488.592" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_44">
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(426.080054 504.708081)">Binding kinetics,</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(428.011702 512.446794)">model selection</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(434.700897 520.185507)">and avidity</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(441.192194 527.92422)">(n=11)</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m33bc97179a" x="537.09552" y="488.592" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_45">
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(505.364473 504.708081)">Competition, epitope,</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(521.186083 512.446794)">escape and</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(524.325653 520.178093)">structure</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(528.95659 527.916806)">(n=5)</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m33bc97179a" x="623.17008" y="488.592" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_46">
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(587.283736 504.708081)">Dose response, imaging,</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(607.257791 512.446794)">uptake and</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(610.299838 520.185507)">cell state</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(613.20615 527.92422)">(n=21)</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m33bc97179a" x="709.24464" y="488.592" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_47">
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(683.696921 504.708081)">Assay QC, batch,</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(688.871367 512.446794)">censoring and</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(677.532413 520.185507)">hierarchical inference</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(699.28071 527.92422)">(n=23)</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m33bc97179a" x="795.3192" y="488.592" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_48">
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(766.937028 504.708081)">Experiment design,</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(773.734013 512.446794)">active learning</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(774.744606 520.185507)">and allocation</text>
+      <text style="font-size: 7.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(787.18027 527.92422)">(n=8)</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_5">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#md4508887fe" x="149.76" y="335.502" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_49">
+      <text style="font-weight: 700; font-size: 10px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #d16f4d" x="142.76" y="338.88823" transform="rotate(-0 142.76 338.88823)">Opus 5</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#md4508887fe" x="149.76" y="379.242" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_50">
+      <text style="font-weight: 700; font-size: 10px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #4d77cf" x="142.76" y="382.631062" transform="rotate(-0 142.76 382.631062)">Gemini 3.7 Flash</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#md4508887fe" x="149.76" y="422.982" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_51">
+      <text style="font-weight: 700; font-size: 10px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #159a86" x="142.76" y="426.371062" transform="rotate(-0 142.76 426.371062)">GPT-5.6 Sol</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#md4508887fe" x="149.76" y="466.722" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_52">
+      <text style="font-weight: 700; font-size: 10px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end; fill: #171a1f" x="142.76" y="470.111063" transform="rotate(-0 142.76 470.111063)">Grok 4.6</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_53">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="192.79728" y="337.578416" transform="rotate(-0 192.79728 337.578416)">60</text>
+   </g>
+   <g id="text_54">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="278.87184" y="337.578416" transform="rotate(-0 278.87184 337.578416)">44</text>
+   </g>
+   <g id="text_55">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="364.9464" y="337.578416" transform="rotate(-0 364.9464 337.578416)">59</text>
+   </g>
+   <g id="text_56">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="451.02096" y="337.578416" transform="rotate(-0 451.02096 337.578416)">52</text>
+   </g>
+   <g id="text_57">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="537.09552" y="337.578416" transform="rotate(-0 537.09552 337.578416)">46</text>
+   </g>
+   <g id="text_58">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="623.17008" y="337.578416" transform="rotate(-0 623.17008 337.578416)">62</text>
+   </g>
+   <g id="text_59">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="709.24464" y="337.578416" transform="rotate(-0 709.24464 337.578416)">37</text>
+   </g>
+   <g id="text_60">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="795.3192" y="337.578416" transform="rotate(-0 795.3192 337.578416)">47</text>
+   </g>
+   <g id="text_61">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="192.79728" y="381.318416" transform="rotate(-0 192.79728 381.318416)">49</text>
+   </g>
+   <g id="text_62">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="278.87184" y="381.318416" transform="rotate(-0 278.87184 381.318416)">17</text>
+   </g>
+   <g id="text_63">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="364.9464" y="381.318416" transform="rotate(-0 364.9464 381.318416)">75</text>
+   </g>
+   <g id="text_64">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="451.02096" y="381.318416" transform="rotate(-0 451.02096 381.318416)">27</text>
+   </g>
+   <g id="text_65">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="537.09552" y="381.318416" transform="rotate(-0 537.09552 381.318416)">63</text>
+   </g>
+   <g id="text_66">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="623.17008" y="381.318416" transform="rotate(-0 623.17008 381.318416)">52</text>
+   </g>
+   <g id="text_67">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="709.24464" y="381.318416" transform="rotate(-0 709.24464 381.318416)">49</text>
+   </g>
+   <g id="text_68">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="795.3192" y="381.318416" transform="rotate(-0 795.3192 381.318416)">33</text>
+   </g>
+   <g id="text_69">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="192.79728" y="425.058416" transform="rotate(-0 192.79728 425.058416)">30</text>
+   </g>
+   <g id="text_70">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="278.87184" y="425.058416" transform="rotate(-0 278.87184 425.058416)">44</text>
+   </g>
+   <g id="text_71">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="364.9464" y="425.058416" transform="rotate(-0 364.9464 425.058416)">35</text>
+   </g>
+   <g id="text_72">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="451.02096" y="425.058416" transform="rotate(-0 451.02096 425.058416)">24</text>
+   </g>
+   <g id="text_73">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="537.09552" y="425.058416" transform="rotate(-0 537.09552 425.058416)">44</text>
+   </g>
+   <g id="text_74">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="623.17008" y="425.058416" transform="rotate(-0 623.17008 425.058416)">20</text>
+   </g>
+   <g id="text_75">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="709.24464" y="425.058416" transform="rotate(-0 709.24464 425.058416)">44</text>
+   </g>
+   <g id="text_76">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="795.3192" y="425.058416" transform="rotate(-0 795.3192 425.058416)">50</text>
+   </g>
+   <g id="text_77">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="192.79728" y="468.798416" transform="rotate(-0 192.79728 468.798416)">49</text>
+   </g>
+   <g id="text_78">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="278.87184" y="468.798416" transform="rotate(-0 278.87184 468.798416)">17</text>
+   </g>
+   <g id="text_79">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="364.9464" y="468.798416" transform="rotate(-0 364.9464 468.798416)">58</text>
+   </g>
+   <g id="text_80">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="451.02096" y="468.798416" transform="rotate(-0 451.02096 468.798416)">70</text>
+   </g>
+   <g id="text_81">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="537.09552" y="468.798416" transform="rotate(-0 537.09552 468.798416)">47</text>
+   </g>
+   <g id="text_82">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="623.17008" y="468.798416" transform="rotate(-0 623.17008 468.798416)">57</text>
+   </g>
+   <g id="text_83">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="709.24464" y="468.798416" transform="rotate(-0 709.24464 468.798416)">50</text>
+   </g>
+   <g id="text_84">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle; fill: #17202a" x="795.3192" y="468.798416" transform="rotate(-0 795.3192 468.798416)">31</text>
+   </g>
+   <g id="text_85">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start" x="149.76" y="305.632" transform="rotate(-0 149.76 305.632)">B  Performance by computational-analysis family</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_4">
+    <path d="M 848.31552 389.1888 
+L 861.12 389.1888 
+L 861.12 133.0992 
+L 848.31552 133.0992 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAABIAAAFkCAYAAAAtwms/AAACCElEQVR4nO2dwXHFQAxCWY367y/FGFJCLowHk90C3hiEtDr4+x/pRzCcgemsYHkgLECESZNNmrLMHgsFxqqty+xJTLY8IMW1CGzSlFZ+pFVtXU80eRNSxbcIwsbIJF6QbL0g1Vx+ekBo3o+UZfb0JntN4wg+j+gCyQYS4nLkOSudVmlU2BMN0gK5xdLo4eB2/9/ndv8nPVLvGGGvNKVJ27wlgi6Qmlc/ZJk9ed3PuPLT1Gv7FHuEVrPHg0F5i8ADelzlZ69HRJq0J61qW1z+J1DacYHgAT2oLT/zNn+ZQM/t/hf3I6A1RyyekKj1SGm3yHgwCKzaBt4iQG351TpGptkjWTi4LfLFZG9e+XWT/b0xMhYKupPNtGRvnkdSK2gCX/RWnDS6QDKBmOeRwkATKI29LSITiL3SlAaaxAkpFwitOWKvNKXdtOPBwNr96pUGD4imHI0HA6zpByxYmNp/jNLkAR3XfoS47odNGm0eKc4jeEAnUJrSQMrzCL3S5AGdOyH/c/lxJ+R72wjydkgWD395QKd4z2bveqy8/QitHp28ZMsGUu3wV+/wlwvE69GLN60soOnN0VRPSFlA0+vRWChIXGs2sPvpAilOmsLWms3zSK5Pzan4e7VyfY5PeZ+aY1qOdD364tuHNIEQV37VJhu3+99MtlpzpN4W0W2Rf/1XBQpL9vZekL8+H+RRMw5eSQAAAABJRU5ErkJggg==" id="imagea00dcfb504" transform="scale(1 -1) translate(0 -256.32)" x="848.16" y="-133.2" width="12.96" height="256.32"/>
+   <g id="matplotlib.axis_5"/>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_9">
+     <g id="line2d_24">
+      <defs>
+       <path id="m98741a0e56" d="M 0 0 
+L 3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m98741a0e56" x="861.12" y="389.1888" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_86">
+      <text style="font-size: 10.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start" x="868.12" y="392.828937" transform="rotate(-0 868.12 392.828937)">0</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m98741a0e56" x="861.12" y="337.97088" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_87">
+      <text style="font-size: 10.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start" x="868.12" y="341.611017" transform="rotate(-0 868.12 341.611017)">20</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m98741a0e56" x="861.12" y="286.75296" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_88">
+      <text style="font-size: 10.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start" x="868.12" y="290.393097" transform="rotate(-0 868.12 290.393097)">40</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m98741a0e56" x="861.12" y="235.53504" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_89">
+      <text style="font-size: 10.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start" x="868.12" y="239.175177" transform="rotate(-0 868.12 239.175177)">60</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m98741a0e56" x="861.12" y="184.31712" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_90">
+      <text style="font-size: 10.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start" x="868.12" y="187.957257" transform="rotate(-0 868.12 187.957257)">80</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m98741a0e56" x="861.12" y="133.0992" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_91">
+      <text style="font-size: 10.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start" x="868.12" y="136.739337" transform="rotate(-0 868.12 136.739337)">100</text>
+     </g>
+    </g>
+    <g id="text_92">
+     <text style="font-size: 11.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle" x="895.855312" y="261.144" transform="rotate(-90 895.855312 261.144)">Pass rate (%)</text>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+   <g id="patch_5">
+    <path d="M 848.31552 389.1888 
+L 854.71776 389.1888 
+L 861.12 389.1888 
+L 861.12 133.0992 
+L 854.71776 133.0992 
+L 848.31552 133.0992 
+L 848.31552 389.1888 
+z
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pff35248869">
+   <rect x="149.76" y="33.696" width="688.59648" height="174.96"/>
+  </clipPath>
+  <clipPath id="pc1784872b8">
+   <rect x="149.76" y="313.632" width="688.59648" height="174.96"/>
+  </clipPath>
+ </defs>
+</svg>
